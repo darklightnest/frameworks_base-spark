@@ -159,6 +159,10 @@
   <java-symbol type="string" name="app_clipboard_access_denied" />
   <java-symbol type="string" name="app_clipboard_access_granted" />
 
+  <!-- OmniSwitch -->
+  <java-symbol type="anim" name="last_app_in" />
+  <java-symbol type="anim" name="last_app_out" />
+
   <!-- Power button fingerprint -->
   <java-symbol type="bool" name="config_powerButtonFingerprint" />
 
