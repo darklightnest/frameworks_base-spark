@@ -5790,6 +5790,9 @@ public final class Settings {
          */
         public static final String CLIPBOARD_TOAST_INFO = "clipboard_toast_info";
 
+        /** @hide */
+        public static final String OMNI_NAVIGATION_BAR_RECENTS = "navigation_bar_recents";
+
         /**
          * Force full screen for devices with cutout
          * @hide
