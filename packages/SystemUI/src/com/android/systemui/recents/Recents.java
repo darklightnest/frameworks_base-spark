@@ -82,7 +82,7 @@ public class Recents extends SystemUI implements CommandQueue.Callbacks {
         }
 
         if (isOmniSwitchRecents()) {
-            ColtUtils.toggleOmniSwitchRecents(mContext, UserHandle.CURRENT);
+            SparkUtils.toggleOmniSwitchRecents(mContext, UserHandle.CURRENT);
             return;
         }
 
@@ -98,7 +98,7 @@ public class Recents extends SystemUI implements CommandQueue.Callbacks {
         }
 
         if (isOmniSwitchRecents()) {
-            ColtUtils.hideOmniSwitchRecents(mContext, UserHandle.CURRENT);
+            SparkUtils.hideOmniSwitchRecents(mContext, UserHandle.CURRENT);
             return;
         }
 
@@ -114,7 +114,7 @@ public class Recents extends SystemUI implements CommandQueue.Callbacks {
         }
 
                 if (isOmniSwitchRecents()) {
-            ColtUtils.toggleOmniSwitchRecents(mContext, UserHandle.CURRENT);
+            SparkUtils.toggleOmniSwitchRecents(mContext, UserHandle.CURRENT);
             return;
         }
 
@@ -130,7 +130,7 @@ public class Recents extends SystemUI implements CommandQueue.Callbacks {
         }
 
         if (isOmniSwitchRecents()) {
-            ColtUtils.preloadOmniSwitchRecents(mContext, UserHandle.CURRENT);
+            SparkUtils.preloadOmniSwitchRecents(mContext, UserHandle.CURRENT);
             return;
         }
 
